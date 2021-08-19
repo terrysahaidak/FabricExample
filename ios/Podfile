@@ -10,7 +10,7 @@ target 'FabricExample' do
     :path => config[:reactNativePath],
     # to enable hermes on iOS, change `false` to `true` and then install pods
     :hermes_enabled => false,
-    :enable_fabric => true
+    :fabric_enabled => true
   )
 
   target 'FabricExampleTests' do
